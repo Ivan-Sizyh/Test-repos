@@ -26,26 +26,20 @@ gem 'redis', '~> 4.0'
 gem 'bootsnap', require: false
 
 group :development, :test do
-
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails'
-  gem 'rspec-rails', '~> 3.8'
-
+  gem 'rspec-rails'
 end
 
 group :development do
-
   gem 'rubocop'
   gem 'rubocop-performance'
   gem 'web-console'
-
 end
 
 group :test do
-
   gem 'capybara'
   gem 'rails-controller-testing'
   gem 'selenium-webdriver'
   gem 'shoulda-matchers'
-
 end

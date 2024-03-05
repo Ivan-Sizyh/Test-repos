@@ -1,5 +1,6 @@
 AllCops:
   NewCops: enable
+  DisabledByDefault: true
 
 require:
   - rubocop-performance
@@ -27,7 +28,4 @@ Layout/LineLength:
 
 Metrics/AbcSize:
   Enabled: false
-  
-Layout/EmptyLinesAroundBlockBody:
-  Enabled: true
-  EnforcedStyle: empty_lines
+
